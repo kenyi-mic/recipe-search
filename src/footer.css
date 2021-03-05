@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  background: rgb(2, 2, 22);
+  background-position: bottom;
+  background-size: cover;
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+  font-family: "Permanent Marker";
+  padding-top: 48px;
+  padding-bottom: 48px;
+  position: relative;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  font-family: "Permanent Marker";
+}
+
+h5 {
+  color: beige;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+h6 {
+  font-size: 12px;
+}
+h6 span {
+  color: #c1b4cf;
+}
+h5:hover {
+  text-decoration: line-through;
+}
+
+.policy li {
+  color: #3a0a70;
+  cursor: pointer;
+}
+
+.last-brand {
+  background: rgb(1, 1, 12);
+  padding: 10px;
+  text-align: center;
+  color: beige;
+  font-family: "Permanent Marker";
+}
+/* go to top button*/
+#go-top {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -30px;
+  scroll-behavior: smooth;
+}
+#go-top a {
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #1b1a1a;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  color: #fff;
+  font-size: 21px;
+  line-height: 60px;
+  border-radius: 100%;
+}
+
+#go-top a:hover {
+  background-color: #0f9095;
+}
+.arraw {
+  color: #ffff;
+  position: relative;
+  left: 18px;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-content {
+    display: flex;
+
+    background: rgb(2, 2, 22);
+    background-position: bottom;
+    background-size: cover;
+    justify-content: space-around;
+    padding: 20px 0px 20px 0px;
+    font-family: "Permanent Marker";
+    padding-top: 48px;
+    padding-bottom: 48px;
+    position: relative;
+  }
+}
